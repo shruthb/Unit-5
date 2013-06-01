@@ -40,14 +40,11 @@ function processData()
 		res = JSON.parse(xhr.responseText);
 		document.getElementById("result").value = res.domain;
 		
-		//var urls = 
-		document.getElementById("urls").innerHTML = res.urls;
-		/*urls.innerHTML = "";
-		var list = res.urls.split(',')
-		alert(list)
-		for(var i in list)
-			alert(list[i])*/
-			//urls.innerHTML += res.urls[i] + '<br/>';*/
+		var urls = document.getElementById("urls");
+		urls.innerHTML = "" ; //= res.urls; - Object array
+		for(var i in res.urls)
+			//alert(res.urls[i])
+			urls.innerHTML += res.urls[i] + '<br/>';
 	}
 }
 function keyword(event)
