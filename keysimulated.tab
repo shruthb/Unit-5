@@ -1,0 +1,151 @@
+keyword1  keyword2	keyword3	keyword4	keyword5	keyword6	keyword7	keyword8	technology
+d	d	d	d	d	d	d	d	d
+								class
+mobile agent	Virtual machining	data storage	cloud services		network-based cloud computing	Computer networks	Distributed computing	cloud computing
+
+
+open systems	data storage	cloud-hosted assets	cloud computing service providers	on-demand computing	data centers	open cloud computing federation	utility computing	cloud computing
+
+
+virtualisation	Computer networks	private clouds	cloud computing	data centers	cloud services	portability	cloud computing environments	cloud computing
+
+
+		utility computing	on-demand computing	virtualisation	data privacy	mobile agent	cloud services	cloud computing
+
+
+public clouds	cloud computing	open systems	cloud-hosted assets	virtualisation	peer-to-peer computing	network-based cloud computing	open cloud computing federation	cloud computing
+
+
+cloud security	open cloud computing federation	public clouds	cloud security	data storage	cloud-hosted assets	peer-to-peer computing	cloud security	cloud computing
+
+
+mobile agent	cloud-hosted assets	virtualization technology	cloud computing infrastructures	cloud-hosted assets	cloud computing environments	parallel computing	data storage	cloud computing
+
+
+virtualisation	virtual resources	Distributed computing	cloud-hosted assets	virtualization technology	security cloud	hybrid clouds	data centers	cloud computing
+
+
+Virtual machining	data privacy	cloud security	data privacy	Virtual machining	data storage	Servers	data privacy	cloud computing
+
+
+cloud computing infrastructures	security cloud	data privacy	cloud computing	virtualization technology	portability	peer-to-peer computing	Virtual machining	cloud computing
+
+
+mobility management	sensor networks	robust power allocation	Scattering	telecommunication security	Telecommunications	battery power	uncertain channel gain	mobile computing
+
+
+Mobile computing	Interference	telecommunication security	wireless communication	Long Term Evolution	wireless communication	underlay spectrum sharing	Scattering	mobile computing
+
+
+sporadic connectivity	asynchronous channel hopping	Interference	Long Term Evolution	asynchronous channel hopping	asynchronous channel hopping	uncertain channel gain	Long Term Evolution	mobile computing
+
+
+sporadic connectivity	3G mobile communication		sensor networks	wireless sensor networks	sensor networks	Energy consumption	underlay spectrum sharing	mobile computing
+
+
+3G mobile communication	infrequent message passing	3G mobile communication	smart phones	wireless communication	Long Term Evolution	robust power allocation	battery power	mobile computing
+
+
+Location update	Global Positioning System	Interference	uncertain channel gain	telecommunication security	Long Term Evolution	asynchronous channel hopping	robust power allocation	mobile computing
+
+
+uncertain channel gain	Energy consumption	ad hoc networks	Location update	wireless communication	long term evolution (LTE)	robust power allocation	telecommunication security	mobile computing
+
+
+asynchronous channel hopping	smart phones	battery power	long term evolution (LTE)	Interference	smart phones	Long Term Evolution	asynchronous channel hopping	mobile computing
+
+
+Mobile computing	infrequent message passing	Energy consumption	underlay spectrum sharing	sensor networks	wireless sensor networks	Scattering	battery power	mobile computing
+
+
+asynchronous channel hopping	Energy consumption	smart phones	uncertain channel gain	infrequent message passing	3G mobile communication	Location update	Mobile computing	mobile computing
+
+
+data mining	data mining	Facebook	Facebook	MySpace	Social network services	Internet Shopping	social informatics	social computing
+
+
+pattern clustering	pattern clustering	Feature extraction	data collection	pattern clustering	data extraction	social networking	social computing technology	social computing
+
+
+intelligent agents	Social network services	Facebook	social computing technology	Customer Loyalty	Tagging	Tagging	Informatics	social computing
+
+
+artificial social agents	Social network services	social behavior	artificial social agents	Tagging	data collection	intelligent agents	Cognition	social computing
+
+
+pattern clustering	YouTube	Customer Loyalty	Internet Shopping	data extraction	data extraction	social information processing		social computing
+
+
+data visualisation	social services computing	Internet Shopping	data extraction	Psychology	Social network services	Informatics	artificial social agents	social computing
+
+
+data mining	social intelligence	data visualisation	social intelligence	Psychology	social informatics	Tagging	Customer Loyalty	social computing
+
+
+data ranking	Humans	social services computing	YouTube	social behavior	data ranking	data visualisation	Informatics	social computing
+
+
+data mining	social information processing	sentiment analysis	Internet Shopping	Psychology	Internet Shopping	YouTube	Psychology	social computing
+
+
+Psychology	data collection	social information processing	social knowledge sites	social behavior	social computing technology	Cognition	MySpace	social computing
+
+
+dereverberation	speaker verification	Acoustic distortion	dereverberation	dereverberation	speech synthesis	Speech processing	noise reduction algorithm	audio speech and language processing
+
+
+channel mismatch compensation	Active intensity	3D audio	Acoustics	Audio coding	3D audio	normalization	automatic speech recognition	audio speech and language processing
+
+
+acoustic correlation	multichannel dictionary	Acoustics	normalization	Compressed sensing	multichannel dictionary	speech enhancement scheme	monochannel dictionary	audio speech and language processing
+
+
+Speaker recognition	speaker verification	Source separation	multimicrophone noise reduction	Speech	normalization	3D audio	videoconferencing	audio speech and language processing
+
+
+microphone	Audio coding	multichannel noise reduction filter	Acoustic distortion	Speaker recognition	Acoustic distortion	speech enhancement scheme	noise reduction algorithm	audio speech and language processing
+
+
+monochannel dictionary	automatic speech recognition	automatic speech recognition	speech enhancement	Active intensity	Speech processing	speech synthesis	speech synthesis	audio speech and language processing
+
+
+multichannel dictionary	Source separation	Speaker recognition	speech synthesis	Source separation	filtered microphone signals	Speech processing	acoustic correlation	audio speech and language processing
+
+
+mixed signals	Acoustics	acoustic correlation	monochannel dictionary	speaker verification	Source separation	acoustic correlation	monochannel dictionary	audio speech and language processing
+
+
+probabilistic principal component analysis	Source separation	probabilistic principal component analysis	Noise reduction	Audio coding	Source separation	Source separation	Noise reduction	audio speech and language processing
+
+
+speaker verification	multichannel noise reduction filter	monochannel dictionary	Active intensity	Noise reduction	dereverberation	Acoustics	filtered microphone signals	audio speech and language processing
+
+
+virus	antispam	cypherpunk	overlay networks	security	Software reliability	Computer security	intrusion detection	security and privacy
+
+
+Software reliability	spam	spam	software vulnerabilities	antispam	antispam	Network security		security and privacy
+
+
+Software reliability	cyber intelligence	cyberattack	cybersecurity	cybersecurity	antispam software		intrusion detection	security and privacy
+
+
+privacy		Network security	intrusion tolerance	Software reliability	overlay networks	cyberattack	overlay networks	security and privacy
+
+
+cybersecurity	cypherpunk	cyber responsibilities	cyberattack		cryptography	security	cyber intelligence	security and privacy
+
+
+Computer crime	Software reliability	cyber responsibilities	Computer crime	security	antispam software		computer network security	security and privacy
+
+
+Computer crime	virus	security	identity management	Computer crime	cyber responsibilities	spam	intrusion detection	security and privacy
+
+
+Software reliability	intrusion detection	antivirus	Computer crime	cypherpunk	cyber responsibilities	software vulnerabilities	intrusion tolerance	security and privacy
+
+
+cybersecurity	Computer security	Network security		spam	antispam software	antispam	antispam	security and privacy
+
+
+cryptography	cybersecurity	spam	cyberattack	cypherpunk	Computer crime	cyber responsibilities	spam	security and privacy
