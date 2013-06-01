@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Keyword</title>
+<style type="text/css">
+label
+{
+  display:block;
+}
+#op
+{
+	display:block; //none
+}
+</style>
+<script type="text/javascript">
+var count = 8;
+function fetch()
+{
+	var labels = document.getElementsByTagName("input");
+	var senddata = "";
+	for(var i=0; i<count; ++i)
+	{
+		senddata += "key" + (i+1) + "=" + labels[i].value.replace(/\s+/g,"+") + "&";
+		// without g - replacing only first occurence split(" ").join("+") - multiple +
+		//do we need encodeURIComponent?
+		if(labels[i].value == "")
+			return;
+	}
+	//alert(senddata.slice(0,-1)); //to get rid of & at end
+	xhr = new XMLHttpRequest();
+	xhr.onreadystatechange = processData;
+	xhr.open("POST", "http://localhost:8080/restapi/", true);
+	xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	xhr.send(senddata.slice(0,-1));
+}
+function processData()
+{
+	if(xhr.readyState == 4 && xhr.status == 200)
+	{
+		res = JSON.parse(xhr.responseText);
+		document.getElementById("result").value = res.domain;
+		
+		//var urls = 
+		document.getElementById("urls").innerHTML = res.urls;
+		/*urls.innerHTML = "";
+		var list = res.urls.split(',')
+		alert(list)
+		for(var i in list)
+			alert(list[i])*/
+			//urls.innerHTML += res.urls[i] + '<br/>';*/
+	}
+}
+function keyword(event)
+{
+	var elem = event.target;
+	var holder = document.getElementById("keywords");
+	if(elem.id == "addkey")
+	{
+		count += 1;
+		var label = document.createElement("label");
+		var text = document.createTextNode( "Keyword #" + count + " : ");
+		var inp = document.createElement("input");
+		inp.type = "text";
+		inp.name = inp.id = "key" + count;
+		label.appendChild(text);
+		label.appendChild(inp);
+		holder.appendChild(label);
+		if( count >= 5)
+			document.getElementById("rmkey").disabled = false;
+		if( count == 8)
+			elem.disabled = true;
+	}
+	else
+	{
+		count -=1;
+		var labels = holder.getElementsByTagName("label");
+		//alert(labels[count].innerHTML)
+		holder.removeChild(labels[count]);
+		if( count <= 7)
+			document.getElementById("addkey").disabled = false;		
+		if( count == 4)
+			elem.disabled = true;
+	}
+}
+</script>
+</head>
+<body>
+<h2> Enter your keywords here : </h2>
+<!--form method="post" action=""-->
+<div id="keywords">
+<label>Keyword #1 : <input type="text" name="key1" id="key1"/></label>
+<label>Keyword #2 : <input type="text" name="key2" id="key2"/></label>
+<label>Keyword #3 : <input type="text" name="key3" id="key3"/></label>
+<label>Keyword #4 : <input type="text" name="key4" id="key4"/></label>
+<label>Keyword #5 : <input type="text" name="key5" id="key5"/></label>
+<label>Keyword #6 : <input type="text" name="key6" id="key6"/></label>
+<label>Keyword #7 : <input type="text" name="key7" id="key7"/></label>
+<label>Keyword #8 : <input type="text" name="key8" id="key8"/></label>
+</div>
+<br/> <input type="button" value="Add Keyword" onclick="keyword(event)" disabled id="addkey" />
+ <input type="button" value="Remove Keyword" onclick="keyword(event)" id="rmkey" /> <br/>
+<br/> <input type="button" value="Fetch Result" onclick="fetch()"/> <br/>
+<!--/form-->
+<br/>
+<label id="op"> <h2 style="display:inline;"> Result : </h2> <input type="text" disabled id="result"/> </label>
+<div id="urls">
+</div>
+</body>
+</html>
