@@ -91,7 +91,7 @@ def querydomain(keywords):
     f = open('keysimulated.tab','a')
     f.write('\t'.join(keywords)+'\t\n\n')
     f.close()
-    doc = mylog.datalog('logs.txt','a')
+    doc = mylog.datalog('logs.txt')
     #queryfile()
     #appendtoqueryfile(keywords)
     data = Orange.data.Table('keysimulated.tab')
